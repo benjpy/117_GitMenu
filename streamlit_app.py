@@ -185,45 +185,46 @@ def fetch_metadata(url):
 app_config = load_apps()
 
 # Sidebar - Add New App
-with st.sidebar:
-    st.header("Manage Apps")
-    
-    with st.expander("➕ Add New App", expanded=False):
-        with st.form("add_app_form"):
-            new_url = st.text_input("App URL", placeholder="https://...")
-            
-            # Simple metadata fetching trigger could be added here with session state,
-            # but for simplicity in a form, we'll let the user type or it will auto-fill on save if empty.
-            
-            new_title = st.text_input("Title (Optional - Auto-fetch if empty)")
-            new_icon = st.text_input("Icon (Emoji)", value="🚀")
-            new_desc = st.text_area("Description", value="A cool new app.")
-            new_badge = st.text_input("Badge (Optional)", placeholder="New")
-            
-            submitted = st.form_submit_button("Add App")
-            
-            if submitted and new_url:
-                with st.spinner("Adding app..."):
-                    # Auto-fill missing data
-                    if not new_title:
-                        meta = fetch_metadata(new_url)
-                        if meta:
-                            new_title = meta['title']
-                        else:
-                            new_title = "My App"
-                    
-                    new_app = {
-                        "title": new_title,
-                        "icon": new_icon,
-                        "description": new_desc,
-                        "url": new_url,
-                        "badge": new_badge if new_badge else None
-                    }
-                    
-                    app_config.append(new_app)
-                    save_apps(app_config)
-                    st.success("App added!")
-                    st.rerun()
+if st.query_params.get("admin") == "true":
+    with st.sidebar:
+        st.header("Manage Apps")
+        
+        with st.expander("➕ Add New App", expanded=False):
+            with st.form("add_app_form"):
+                new_url = st.text_input("App URL", placeholder="https://...")
+                
+                # Simple metadata fetching trigger could be added here with session state,
+                # but for simplicity in a form, we'll let the user type or it will auto-fill on save if empty.
+                
+                new_title = st.text_input("Title (Optional - Auto-fetch if empty)")
+                new_icon = st.text_input("Icon (Emoji)", value="🚀")
+                new_desc = st.text_area("Description", value="A cool new app.")
+                new_badge = st.text_input("Badge (Optional)", placeholder="New")
+                
+                submitted = st.form_submit_button("Add App")
+                
+                if submitted and new_url:
+                    with st.spinner("Adding app..."):
+                        # Auto-fill missing data
+                        if not new_title:
+                            meta = fetch_metadata(new_url)
+                            if meta:
+                                new_title = meta['title']
+                            else:
+                                new_title = "My App"
+                        
+                        new_app = {
+                            "title": new_title,
+                            "icon": new_icon,
+                            "description": new_desc,
+                            "url": new_url,
+                            "badge": new_badge if new_badge else None
+                        }
+                        
+                        app_config.append(new_app)
+                        save_apps(app_config)
+                        st.success("App added!")
+                        st.rerun()
 
 # Header
 st.markdown("""
