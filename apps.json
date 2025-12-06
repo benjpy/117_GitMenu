@@ -41,11 +41,4 @@
         "url": "https://share.streamlit.io/benjpy/press-coach",
         "badge": "Pro"
     },
-    {
-        "title": "Alegria",
-        "icon": "\ud83d\ude4c",
-        "description": "A cool new app.",
-        "url": "https://www.alegria.group/en/academy/formation-btob",
-        "badge": "Cool"
-    }
 ]
