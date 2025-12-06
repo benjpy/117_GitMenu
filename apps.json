@@ -3,42 +3,56 @@
         "title": "Background Remover",
         "icon": "\ud83d\uddbc\ufe0f",
         "description": "Remove backgrounds from images instantly using AI.",
-        "url": "https://share.streamlit.io/benjpy/background-remover",
+        "url": "https://id-maker.streamlit.app/",
         "badge": "New"
     },
     {
         "title": "Post Generator",
         "icon": "\u270d\ufe0f",
         "description": "Generate engaging LinkedIn posts with iterative refinement.",
-        "url": "https://share.streamlit.io/benjpy/post-generator",
-        "badge": "Popular"
+        "url": "https://linkedin-ghostwriter.streamlit.app/",
+        "badge": "New"
     },
     {
-        "title": "Joke Generator",
+        "title": "Youtube Vibe Checker",
         "icon": "\ud83c\udfad",
-        "description": "Get a daily dose of humor with AI-generated jokes.",
-        "url": "https://share.streamlit.io/benjpy/joke-generator",
+        "description": "Analyze the vibe of a Youtube video from its comments.",
+        "url": "https://youtube-vibe-check.streamlit.app/",
         "badge": "Fun"
     },
     {
         "title": "AI Remake",
         "icon": "\ud83c\udfa8",
         "description": "Transform images using iterative prompt generation.",
-        "url": "https://share.streamlit.io/benjpy/ai-remake",
-        "badge": "Beta"
+        "url": "https://ai-remake.streamlit.app/",
+        "badge": "Fun"
     },
     {
         "title": "Journalist Persona",
         "icon": "\ud83d\udcf0",
         "description": "Analyze journalist personas and find media contacts.",
         "url": "https://share.streamlit.io/benjpy/journalist-persona",
-        "badge": "Tool"
+        "badge": "Pro"
     },
     {
-        "title": "PressCoach",
+        "title": "Media Coach",
         "icon": "\ud83c\udfa4",
         "description": "Master your media interviews with AI-powered coaching.",
-        "url": "https://share.streamlit.io/benjpy/press-coach",
+        "url": "https://mediacoach.streamlit.app/",
+        "badge": "Pro"
+    },
+    {
+        "title": "Event Badge Maker",
+        "icon": "\ud83d\udcf0",
+        "description": "An app to create event badges.",
+        "url": "https://robotics-badge.streamlit.app/",
+        "badge": "Pro"
+    },
+    {
+        "title": "Whatsapp Voicemail Translator",
+        "icon": "\ud83d\udcf0",
+        "description": "Translate Whatsapp voicemail to text.",
+        "url": "https://babelfish.streamlit.app/",
         "badge": "Pro"
     }
 ]
