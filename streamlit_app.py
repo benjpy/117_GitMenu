@@ -229,7 +229,7 @@ with st.sidebar:
 st.markdown("""
     <div class="header-container">
         <div class="header-title">Ben's Apps</div>
-        <div class="header-subtitle">I made these things!</div>
+        <div class="header-subtitle">I made these things.</div>
     </div>
 """, unsafe_allow_html=True)
 
