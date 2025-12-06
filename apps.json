@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Background Remover",
+        "icon": "\ud83d\uddbc\ufe0f",
+        "description": "Remove backgrounds from images instantly using AI.",
+        "url": "https://share.streamlit.io/benjpy/background-remover",
+        "badge": "New"
+    },
+    {
+        "title": "Post Generator",
+        "icon": "\u270d\ufe0f",
+        "description": "Generate engaging LinkedIn posts with iterative refinement.",
+        "url": "https://share.streamlit.io/benjpy/post-generator",
+        "badge": "Popular"
+    },
+    {
+        "title": "Joke Generator",
+        "icon": "\ud83c\udfad",
+        "description": "Get a daily dose of humor with AI-generated jokes.",
+        "url": "https://share.streamlit.io/benjpy/joke-generator",
+        "badge": "Fun"
+    },
+    {
+        "title": "AI Remake",
+        "icon": "\ud83c\udfa8",
+        "description": "Transform images using iterative prompt generation.",
+        "url": "https://share.streamlit.io/benjpy/ai-remake",
+        "badge": "Beta"
+    },
+    {
+        "title": "Journalist Persona",
+        "icon": "\ud83d\udcf0",
+        "description": "Analyze journalist personas and find media contacts.",
+        "url": "https://share.streamlit.io/benjpy/journalist-persona",
+        "badge": "Tool"
+    },
+    {
+        "title": "PressCoach",
+        "icon": "\ud83c\udfa4",
+        "description": "Master your media interviews with AI-powered coaching.",
+        "url": "https://share.streamlit.io/benjpy/press-coach",
+        "badge": "Pro"
+    },
+    {
+        "title": "Alegria",
+        "icon": "\ud83d\ude4c",
+        "description": "A cool new app.",
+        "url": "https://www.alegria.group/en/academy/formation-btob",
+        "badge": "Cool"
+    }
+]
