@@ -1,14 +1,14 @@
 [
     {
         "title": "Background Remover",
-        "icon": "\ud83d\uddbc\ufe0f",
+        "icon": "🎨",
         "description": "Remove backgrounds from images instantly using AI.",
         "url": "https://id-maker.streamlit.app/",
         "badge": "New"
     },
     {
         "title": "Post Generator",
-        "icon": "\u270d\ufe0f",
+        "icon": "✍️",
         "description": "Generate engaging LinkedIn posts with iterative refinement.",
         "url": "https://linkedin-ghostwriter.streamlit.app/",
         "badge": "New"
@@ -22,21 +22,14 @@
     },
     {
         "title": "AI Remake",
-        "icon": "\ud83c\udfa8",
+        "icon": "🎨",
         "description": "Transform images using iterative prompt generation.",
         "url": "https://ai-remake.streamlit.app/",
         "badge": "Fun"
     },
     {
-        "title": "Journalist Persona",
-        "icon": "\ud83d\udcf0",
-        "description": "Analyze journalist personas and find media contacts.",
-        "url": "https://share.streamlit.io/benjpy/journalist-persona",
-        "badge": "Pro"
-    },
-    {
         "title": "Media Coach",
-        "icon": "\ud83c\udfa4",
+        "icon": "🧑‍💻",
         "description": "Master your media interviews with AI-powered coaching.",
         "url": "https://mediacoach.streamlit.app/",
         "badge": "Pro"
