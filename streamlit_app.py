@@ -242,19 +242,18 @@ else:
     
     for app in app_config:
         badge_html = f'<div class="card-badge">{app["badge"]}</div>' if app.get('badge') else ''
-        
         card_html = f"""
-        <a href="{app['url']}" class="app-card" target="_blank">
-            <div class="card-header">
-                <div class="card-icon">{app['icon']}</div>
-                <div class="card-title">{app['title']}</div>
-                {badge_html}
-            </div>
-            <div class="card-description">
-                {app['description']}
-            </div>
-        </a>
-        """
+<a href="{app['url']}" class="app-card" target="_blank">
+    <div class="card-header">
+        <div class="card-icon">{app['icon']}</div>
+        <div class="card-title">{app['title']}</div>
+        {badge_html}
+    </div>
+    <div class="card-description">
+        {app['description']}
+    </div>
+</a>
+"""
         html_content += card_html
         
     html_content += '</div>'
