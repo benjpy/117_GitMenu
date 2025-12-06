@@ -42,10 +42,17 @@
         "badge": "Pro"
     },
     {
-        "title": "Whatsapp Voicemail Translator",
+        "title": "Audio Translator",
         "icon": "🇬🇧",
-        "description": "Translate Whatsapp voicemail to text.",
+        "description": "Translate audio to text.",
         "url": "https://babelfish.streamlit.app/",
         "badge": "Pro"
+    },
+    {
+        "title": "My Udemy Course",
+        "icon": "🧑‍🎓",
+        "description": "Learn AI coding in 1 hour.",
+        "url": "https://www.udemy.com/course/vibe-coding-with-chatgpt-and-python/?referralCode=BD3711D8DA286AD9062A",
+        "badge": "Education"
     }
 ]

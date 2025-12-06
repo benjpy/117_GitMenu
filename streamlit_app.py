@@ -82,6 +82,13 @@ st.markdown("""
     }
 
     /* Card Layout */
+    .app-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+
     .card-header {
         display: flex;
         align-items: center;
@@ -230,28 +237,29 @@ st.markdown("""
 if not app_config:
     st.info("No apps configured. Add one from the sidebar!")
 else:
-    cols = st.columns(3) # 3 columns for better width
-
-    for i, app in enumerate(app_config):
-        col = cols[i % 3]
-        with col:
-            # Render the card as a single clickable HTML element
-            badge_html = f'<div class="card-badge">{app["badge"]}</div>' if app.get('badge') else ''
-            
-            card_html = f"""
-            <a href="{app['url']}" class="app-card" target="_blank">
-                <div class="card-header">
-                    <div class="card-icon">{app['icon']}</div>
-                    <div class="card-title">{app['title']}</div>
-                    {badge_html}
-                </div>
-                <div class="card-description">
-                    {app['description']}
-                </div>
-            </a>
-            """
-            st.markdown(card_html, unsafe_allow_html=True)
-            st.write("") # Spacer
+    # Build HTML for grid layout
+    html_content = '<div class="app-grid">'
+    
+    for app in app_config:
+        badge_html = f'<div class="card-badge">{app["badge"]}</div>' if app.get('badge') else ''
+        
+        card_html = f"""
+        <a href="{app['url']}" class="app-card" target="_blank">
+            <div class="card-header">
+                <div class="card-icon">{app['icon']}</div>
+                <div class="card-title">{app['title']}</div>
+                {badge_html}
+            </div>
+            <div class="card-description">
+                {app['description']}
+            </div>
+        </a>
+        """
+        html_content += card_html
+        
+    html_content += '</div>'
+    
+    st.markdown(html_content, unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
