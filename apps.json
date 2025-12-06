@@ -15,7 +15,7 @@
     },
     {
         "title": "Youtube Vibe Checker",
-        "icon": "\ud83c\udfad",
+        "icon": "🌡️",
         "description": "Analyze the vibe of a Youtube video from its comments.",
         "url": "https://youtube-vibe-check.streamlit.app/",
         "badge": "Fun"
@@ -43,14 +43,14 @@
     },
     {
         "title": "Event Badge Maker",
-        "icon": "\ud83d\udcf0",
+        "icon": "📛",
         "description": "An app to create event badges.",
         "url": "https://robotics-badge.streamlit.app/",
         "badge": "Pro"
     },
     {
         "title": "Whatsapp Voicemail Translator",
-        "icon": "\ud83d\udcf0",
+        "icon": "🇬🇧",
         "description": "Translate Whatsapp voicemail to text.",
         "url": "https://babelfish.streamlit.app/",
         "badge": "Pro"
