@@ -2,7 +2,7 @@
     {
         "title": "Virtual Try-On",
         "icon": "👕",
-        "description": "Visualize how clothes look on you.",
+        "description": "Stage clothes to sell.",
         "url": "https://lets-try-on.streamlit.app/",
         "badge": "New"
     },
