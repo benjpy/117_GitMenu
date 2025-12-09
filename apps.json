@@ -1,8 +1,15 @@
 [
     {
+        "title": "Virtual Try-On",
+        "icon": "👕",
+        "description": "Visualize how clothes look on you.",
+        "url": "https://lets-try-on.streamlit.app/",
+        "badge": "New"
+    },
+    {
         "title": "Background Remover",
         "icon": "🎨",
-        "description": "Remove backgrounds from images instantly using AI.",
+        "description": "Remove backgrounds from images instantly.",
         "url": "https://id-maker.streamlit.app/",
         "badge": "New"
     },
