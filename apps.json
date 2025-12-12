@@ -35,6 +35,13 @@
         "badge": "Fun"
     },
     {
+        "title": "SoupTime",
+        "icon": "🥣",
+        "description": "The world's hardest baby feeding game.",
+        "url": "https://souptime.streamlit.app",
+        "badge": "Fun"
+    },
+    {
         "title": "Media Coach",
         "icon": "🧑‍💻",
         "description": "Master your media interviews with AI-powered coaching.",
@@ -53,7 +60,7 @@
         "icon": "🇬🇧",
         "description": "Translate audio to text.",
         "url": "https://babelfish.streamlit.app/",
-        "badge": "Pro"
+        "badge": "Tool"
     },
     {
         "title": "My Udemy Course",
