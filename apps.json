@@ -7,7 +7,7 @@
         "badge": "New"
     },
     {
-        "title": "Science Notes Converted",
+        "title": "Science Notes Converter",
         "icon": "🔬",
         "description": "Takes handwritten notes and converts them to text.",
         "url": "https://lets-try-on.streamlit.app/",
@@ -25,14 +25,14 @@
         "icon": "🎨",
         "description": "Remove backgrounds from images instantly.",
         "url": "https://id-maker.streamlit.app/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Post Generator",
         "icon": "✍️",
         "description": "Generate engaging LinkedIn posts with iterative refinement.",
         "url": "https://linkedin-ghostwriter.streamlit.app/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Youtube Vibe Checker",
@@ -60,14 +60,14 @@
         "icon": "🧑‍💻",
         "description": "Master your media interviews with AI-powered coaching.",
         "url": "https://mediacoach.streamlit.app/",
-        "badge": "Pro"
+        "badge": "Tool"
     },
     {
         "title": "Event Badge Maker",
         "icon": "📛",
         "description": "An app to create event badges.",
         "url": "https://robotics-badge.streamlit.app/",
-        "badge": "Pro"
+        "badge": "Tool"
     },
     {
         "title": "Audio Translator",
@@ -78,9 +78,23 @@
     },
     {
         "title": "My Udemy Course",
-        "icon": "🧑‍🎓",
-        "description": "Learn AI coding in 1 hour.",
+        "icon": "🧑",
+        "description": "Learn AI coding in 1 hour (1 hour | Video course in English).",
         "url": "https://www.udemy.com/course/vibe-coding-with-chatgpt-and-python/?referralCode=BD3711D8DA286AD9062A",
+        "badge": "Education"
+    },
+    {
+        "title": "Introduction to AI & Vibe Coding for Products and Automation",
+        "icon": "🇵🇹",
+        "description": "Live teaching of AI coding (15 hours | Live teaching in Portuguese With CodeForAll).",
+        "url": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-produto-automacao?utm_campaign=113533114-Ben%20Joffe%20-%20Influencer%20%2F%20Professor&utm_source=promotion-ben-joffe&utm_medium=influencer",
+        "badge": "Education"
+    },
+    {
+        "title": "AI Coding 101 (France)",
+        "icon": "🇫🇷",
+        "description": "Create your first AI tools without coding (3 hours | Live teaching in French).",
+        "url": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-produto-automacao?utm_campaign=113533114-Ben%20Joffe%20-%20Influencer%20%2F%20Professor&utm_source=promotion-ben-joffe&utm_medium=influencer",
         "badge": "Education"
     }
 ]
