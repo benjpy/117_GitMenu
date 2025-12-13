@@ -1,5 +1,19 @@
 [
     {
+        "title": "Document Checker",
+        "icon": "✅",
+        "description": "Reads docs and fills a template and checklist.",
+        "url": "https://doc-check.streamlit.app/",
+        "badge": "New"
+    },
+    {
+        "title": "Science Notes Converted",
+        "icon": "🔬",
+        "description": "Takes handwritten notes and converts them to text.",
+        "url": "https://lets-try-on.streamlit.app/",
+        "badge": "New"
+    },
+    {
         "title": "Virtual Try-On",
         "icon": "👕",
         "description": "Stage clothes to sell.",
