@@ -77,24 +77,24 @@
         "badge": "Tool"
     },
     {
-        "title": "My Udemy Course",
+        "title": "Vibe Coding 101",
         "icon": "📺",
-        "description": "Learn AI coding in 1 hour (1 hour | Video course in English).",
+        "description": "Learn vibe coding through examples (1 hour | Video course in English).",
         "url": "https://www.udemy.com/course/vibe-coding-with-chatgpt-and-python/?referralCode=BD3711D8DA286AD9062A",
-        "badge": "Education"
+        "badge": "Course"
     },
     {
-        "title": "Introduction to AI & Vibe Coding for Products and Automation",
+        "title": "AI Coding for Automation",
         "icon": "🇵🇹",
         "description": "Learn to create personal tools and apps  (15 hours | Live teaching in Portuguese).",
         "url": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-produto-automacao?utm_campaign=113533114-Ben%20Joffe%20-%20Influencer%20%2F%20Professor&utm_source=promotion-ben-joffe&utm_medium=influencer",
-        "badge": "Education"
+        "badge": "Course"
     },
     {
         "title": "AI Coding 101 (France)",
         "icon": "🇫🇷",
         "description": "Create your first AI tools without coding (3 hours | Live teaching in French).",
         "url": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-produto-automacao?utm_campaign=113533114-Ben%20Joffe%20-%20Influencer%20%2F%20Professor&utm_source=promotion-ben-joffe&utm_medium=influencer",
-        "badge": "Education"
+        "badge": "Course"
     }
 ]
