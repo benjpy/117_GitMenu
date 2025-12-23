@@ -1,5 +1,12 @@
 [
     {
+        "title": "Video/Audio/Network Test",
+        "icon": "📸",
+        "description": "Scores the quality of your video, audio, and network connection before a video call.",
+        "url": "https://how-do-i-look.onrender.com/",
+        "badge": "New"
+    },
+    {
         "title": "Document Checker",
         "icon": "✅",
         "description": "Reads docs and fills a template and checklist.",
@@ -10,7 +17,7 @@
         "title": "Science Notes Converter",
         "icon": "🔬",
         "description": "Takes handwritten notes and converts them to text.",
-        "url": "https://lets-try-on.streamlit.app/",
+        "url": "https://formulas-reader.streamlit.app/",
         "badge": "New"
     },
     {
