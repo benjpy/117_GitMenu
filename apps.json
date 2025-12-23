@@ -1,21 +1,21 @@
 [
     {
-        "title": "Video/Audio/Network Test",
+        "title": "Webcam Test",
         "icon": "📸",
         "description": "Scores the quality of your video, audio, and network connection before a video call.",
         "url": "https://how-do-i-look.onrender.com/",
         "badge": "New"
     },
     {
-        "title": "Document Checker",
-        "icon": "✅",
+        "title": "Checklist",
+        "icon": "📋",
         "description": "Reads docs and fills a template and checklist.",
         "url": "https://doc-check.streamlit.app/",
         "badge": "New"
     },
     {
-        "title": "Science Notes Converter",
-        "icon": "🔬",
+        "title": "Science Notes",
+        "icon": "√",
         "description": "Takes handwritten notes and converts them to text.",
         "url": "https://formulas-reader.streamlit.app/",
         "badge": "New"
@@ -42,7 +42,7 @@
         "badge": "Tool"
     },
     {
-        "title": "Youtube Vibe Checker",
+        "title": "Youtube Vibe Check",
         "icon": "🌡️",
         "description": "Analyze the vibe of a Youtube video from its comments.",
         "url": "https://youtube-vibe-check.streamlit.app/",
@@ -64,7 +64,7 @@
     },
     {
         "title": "Media Coach",
-        "icon": "🧑‍💻",
+        "icon": "🎙️",
         "description": "Master your media interviews with AI-powered coaching.",
         "url": "https://mediacoach.streamlit.app/",
         "badge": "Tool"
@@ -78,7 +78,7 @@
     },
     {
         "title": "Audio Translator",
-        "icon": "🇬🇧",
+        "icon": "🗣️",
         "description": "Translate audio to text.",
         "url": "https://babelfish.streamlit.app/",
         "badge": "Tool"
