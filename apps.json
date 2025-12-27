@@ -1,5 +1,12 @@
 [
     {
+        "title": "YouTube Downloader",
+        "icon": "📺",
+        "description": "Get video, audio, subs, comments.",
+        "url": "https://youtube-multi-downloader.streamlit.app/",
+        "badge": "New"
+    },
+    {
         "title": "Webcam Test",
         "icon": "📸",
         "description": "Scores the quality of your video, audio, and network connection before a video call.",
