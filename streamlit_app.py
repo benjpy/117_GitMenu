@@ -75,11 +75,13 @@ else:
     if all_badges:
         try:
             # Try to use st.pills (Streamlit 1.40+)
+            # Note: We catch generic Exception to be safe against API changes or unexpected behavior
             selected_badges = st.pills("Filter by tag", options=all_badges, selection_mode="multi")
-        except AttributeError:
-             # Fallback for older Streamlit versions
+        except Exception:
+             # Fallback for older Streamlit versions or if st.pills fails
             selected_badges = st.multiselect("Filter by tag", options=all_badges)
             
+        # Ensure selected_badges is iterable (e.g. if it somehow returns None)
         if selected_badges:
             app_config = [app for app in app_config if app.get("badge") in selected_badges]
 
