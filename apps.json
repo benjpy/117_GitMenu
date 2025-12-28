@@ -11,28 +11,28 @@
         "icon": "📸",
         "description": "Scores the quality of your video, audio, and network connection before a video call.",
         "url": "https://how-do-i-look.onrender.com/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Checklist",
         "icon": "📋",
         "description": "Reads docs and fills a template and checklist.",
         "url": "https://doc-check.streamlit.app/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Science Notes",
         "icon": "√",
         "description": "Takes handwritten notes and converts them to text.",
         "url": "https://formulas-reader.streamlit.app/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Virtual Try-On",
         "icon": "👕",
         "description": "Stage clothes to sell.",
         "url": "https://lets-try-on.streamlit.app/",
-        "badge": "New"
+        "badge": "Tool"
     },
     {
         "title": "Background Remover",
